@@ -1,0 +1,8 @@
+build/
+dist/
+*.swp
+*.mo
+*.pyc
+*~
+utils/
+MANIFEST
