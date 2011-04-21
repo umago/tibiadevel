@@ -5,11 +5,9 @@ tibiadevel reads the Tibia process memory at runtime and get informations of the
 
 Just to make things clear, It was made for educational purpose and I won't write a bot or any hack that affect the fun of the game with this. Any code you send me with that intention won't be accepted.
 
-Have fun learning how it's works.
-
 Compatibility
 -------------
-This code is compatible with the Tibia Client v8.72
+This code is compatible with the Linux Tibia Client v8.72
 
 License
 -------

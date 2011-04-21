@@ -16,21 +16,16 @@
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 
 from distutils.core import setup
-import glob
 
-data_files = list()
-data_files.append(("tibiadevel/offset", glob.glob("tibiadevel/offset/*.py")))
-print data_files
-
-setup(name="tibiadevel",
+setup(name = "tibiadevel",
       version = "0.1",
       author = "Lucas Alvares Gomes",
       author_email = "lucasagomes@gmail.com",
       url = "http://umago.info",
-      include_package_data=True,
-      packages=["tibiadevel",
-                "tibiadevel.offset",
-                "tibiadevel.object"],
-      data_files = data_files,
+      include_package_data = True,
+      packages = ["tibiadevel",
+                  "tibiadevel.offset",
+                  "tibiadevel.object"],
       )
+
 

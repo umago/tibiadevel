@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-# Copyright (C) 2010 Lucas Alvares Gomes <lucasagomes@gmail.com>
+# Copyright (C) 2011 Lucas Alvares Gomes <lucasagomes@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -15,15 +15,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 
-from tibiadevel.object.client import Client
-from tibiadevel.object.battle_list import BattleList
-from tibiadevel.dicts import skull
-
-if __name__ == '__main__':
-    a = Client()
-    b = BattleList()
-
-    INFOS = "Name: %s\nHP: %d%%\nSkull: %s\n"
-
-    for i in b.get_entities():
-        print INFOS % (i.name, i.hp_bar, skull[i.skull_icon])
+skull = {0: "None", 1: "Yellow", 2: "Green",
+         3: "White", 4: "Red", 5: "Black",
+         6: "Orange"}
